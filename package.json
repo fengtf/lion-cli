@@ -1,0 +1,77 @@
+{
+  "name": "@fengtf/lion-cli",
+  "version": "1.0.2",
+  "description": "cli-util",
+  "main": "lib/index.js",
+  "author": "fengtf",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "lion-cli": "./lib/src/index.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "release": "tsc"
+  },
+  "files": [
+    "lib",
+    "preset.js"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/helper-plugin-utils": "^7.20.2",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@babel/plugin-syntax-flow": "^7.18.6",
+    "@babel/plugin-syntax-jsx": "^7.10.1",
+    "@babel/plugin-transform-object-assign": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/plugin-transform-typescript": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@nuxt/friendly-errors-webpack-plugin": "^2.5.0",
+    "@types/webpack": "^4.41.13",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/compiler-sfc": "^3.2.45",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "cache-loader": "^4.1.0",
+    "chalk": "^4.1.1",
+    "chokidar": "^3.5.3",
+    "clean-css": "^5.3.1",
+    "commander": "^9.4.1",
+    "consola": "^2.15.3",
+    "execa": "^4.0.3",
+    "fork-ts-checker-webpack-plugin": "^4.1.6",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "ora": "^4.0.4",
+    "postcss-load-config": "^4.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "typescript": "^4.8.4",
+    "vue": "^2.5.22",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "4.43.0",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.20",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.188",
+    "@types/node": "^18.11.9",
+    "@vue/component-compiler-utils": "^3.1.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.22",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
